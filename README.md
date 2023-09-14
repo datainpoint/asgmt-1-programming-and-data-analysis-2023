@@ -2,7 +2,7 @@
 
 > Assignment 1: Programming and Data Analysis 2023.
 
-Define specified functions in `asgmt-one.py` with given function templates.
+Define functions in `asgmt-one.py` with given names and templates then run `test-runner.py`.
 
 ## 01. Define a funct ion `use_abs_function()` which uses the built-in `abs()` function to return the absolute value of a given integer.
 
@@ -111,9 +111,7 @@ def use_bool_function(x: int) -> bool:
 
 ## 06. Define a function named `calculate_bmi()` which calculates BMI given heights in centimeters and weights in kilograms.
 
-$$
-\text{BMI} = \frac{\text{weight}_{\text{kg}}}{\text{height}_{\text{m}}^2}
-$$
+Source: <https://en.wikipedia.org/wiki/Body_mass_index>
 
 ```python
 def calculate_bmi(height: int, weight: int) -> float:
